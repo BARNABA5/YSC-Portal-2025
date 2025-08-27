@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youth System - About Us</title>
+  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="mobile-container">
+      <h1 style="color: #000000;">🌟 About Us</h1>
+      <p style="color: rgb(3, 3, 3);"><b>Together we Journey, Together we serve!</b></p>
+    </div>
+  </header>
+
+  <div class="phone-frame">
+    <!-- Carousel Section -->
+    <div class="gallery-carousel">
+      <div class="carousel-track">
+        <div class="poster">
+          <img src="DSCN8979.JPG" alt="Activity 1">
+          <h3>Youth Gathering</h3>
+          <p>Spiritual growth sessions for all members.</p>
+        </div>
+        <div class="poster">
+          <img src="church.JPG" alt="Activity 2">
+          <h3>Our Parish church</h3>
+          <p>Saint Vincent Palotti Church.</p>
+        </div>
+        <div class="poster">
+          <img src="group.JPG" alt="Activity 3">
+          <h3>Workshops</h3>
+          <p>Leadership and academic skills training.</p>
+        </div>
+        <div class="poster">
+          <img src="DSCN8986.JPG" alt="Activity 4">
+          <h3>Youth sessions</h3>
+          <p>Prayer and reflection meetings.</p>
+        </div>
+         <div class="poster">
+          <img src="DSCN9076.JPG" alt="Activity 2">
+          <h3>Fun moments</h3>
+          <p>Some fun moments captured during our activities.</p>
+        </div>
+        <div class="poster">
+          <img src="DSCN9108.JPG" alt="Activity 3">
+          <h3>Together we serve</h3>
+          <p>love is our identity.</p>
+        </div>
+        <div class="poster">
+          <img src="Fr.jpg" alt="Activity 4">
+          <h3>Youth Chaplains</h3>
+          <p>Father George and Father Ambrose.</p>
+        </div>
+         <div class="poster">
+          <img src="DSCN9087.JPG" alt="Activity 4">
+          <h3>We journey together</h3>
+          <p>In faith and service.</p>
+        </div>
+        <div class="poster">
+          <img src="96554.jpg" alt="Activity 4">
+          <h3>Back to school activities</h3>
+          <p> Remembering our school days with gratitude.</p>
+        </div>
+        <div class="poster">
+          <img src="DSCN9117 - Copy.JPG" alt="Activity 4">
+          <h3>Standing firm in faith</h3>
+          <p>journeying with the religious.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Group Description -->
+    <div> 
+        <h2 style="color: #ffffff;">Follow us</h2>
+        <h3 style="color: #ffffff;">
+          We are a youth group that brings together the Youth Serving Christ (Y.S.C) of Sacred Heart Parish - Dagoretti to evangelize through liturgical singing 
+          <br>that deepens the Catholic faith living.
+        </h3>
+    </div>
+  </div>
+  <button class="btn" onclick="window.location.href='index.html'" style="color: #080974;">Back Home</button>
+
+  <!-- Social Links OUTSIDE the phone frame -->
+  <div class="social-links">
+    <a href="https://youtube.com/@sacredheartparishyouthchoir" target="_blank" class="suggest-button">🎥 YouTube Channel</a>
+    <a href="https://www.tiktok.com/@kwaya.ya.vijana.d?is_from_webapp=1&sender_device=pc" target="_blank" class="suggest-button">🎶 TikTok Channel</a>
+  </div>
+
+  <footer style="color: black;">© 2025 Youth System</footer>
+
+<style>
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: url("WhatsApp Image 2025-06-03 at 13.33.56_ee8b9262.jpg");
+  background-repeat: repeat;
+  background-size: 30% auto;  /* each image takes 30% screen width */
+  background-position: top center;
+  background-attachment: fixed;
+  padding: 1rem;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+p{
+  color: #fffdfd;
+}
+/* Header */
+header {
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.mobile-container h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.mobile-container p {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+/* Phone Frame Wrapper */
+.phone-frame {
+  background: #1c1c1d;
+  border: 2px solid #333;
+  border-radius: 2rem;
+  padding: 1rem;
+  max-width: 420px;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.6);
+  overflow: hidden;
+}
+
+/* Carousel Styles */
+.gallery-carousel {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 1rem;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 24px;
+  flex-wrap: nowrap;
+  padding-left: 8px;
+}
+
+/* Poster Card */
+.poster {
+  background: #202b38;
+  border-radius: 20px;
+  padding: 1rem;
+  min-width: 400px;
+  max-width: 400px;
+  flex: 0 0 auto;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(71, 71, 71, 0.4);
+  scroll-snap-align: start;
+  transition: transform 0.25s ease-in-out;
+}
+
+.poster:hover {
+  transform: translateX(10px);
+}
+
+.poster img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.poster h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #ff0707;
+}
+
+.poster p {
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+/* Leaders Section */
+.leaders-names {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.leader {
+  background: #ff5e57;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: transform 0.3s ease;
+  cursor: default;
+}
+
+.leader:hover {
+  transform: translateY(-3px);
+}
+
+/* Social Links OUTSIDE */
+.social-links {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.suggest-button {
+  display: inline-block;
+  padding: 14px 28px;
+  background-color: #00bfa6;
+  color: #4b0606;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.suggest-button:hover {
+  background-color: #008e7d;
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 480px) {
+  .poster {
+    min-width: 240px;
+    max-width: 240px;
+  }
+
+  .poster img {
+    height: 200px;
+  }
+
+  .mobile-container h1 {
+    font-size: 1.6rem;
+  }
+
+  .mobile-container p {
+    font-size: 1rem;
+  }
+}
+</style>
+</body>
+</html>

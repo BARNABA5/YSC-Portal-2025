@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouthSystem Dashboard</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background:url("church.JPG");
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.4);
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+      width: 90%;
+      max-width: 400px;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h1 {
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: normal;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 12px;
+      background: #fff;
+      color: #333;
+      font-weight: bold;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: 0.3s;
+      font-size: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    .btn:hover {
+      background: #e92e2e;
+      transform: translateY(-3px);
+    }
+
+    footer {
+      margin-top: 15px;
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>SACRED HEART PARISH DAGORETTI <span style="color: #f04c4c;">(YSC)</span></h1>
+    <h2>👋 Welcome to Youth Serving Christ🎉</h2>
+
+    <button class="btn" onclick="window.location.href='register.html'">📝 Register</button>
+    <button class="btn" onclick="window.location.href='login.html'">🔑 Admin Login</button>
+    <button class="btn" onclick="window.location.href='About.html'">👥 About Us</button>
+    <button class="btn" onclick="window.location.href='contact.html'">💬Contact Us</button>
+
+    <footer>✨ Together we Journey  🚶 | 💪 Together We Serve ✨</footer>
+  </div>
+
+</body>
+</html>
